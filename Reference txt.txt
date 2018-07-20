@@ -1,0 +1,5 @@
+Java training started on july 20 2018 
+first day I check I configure the Java and Eclipse IDE and pushing the git confiugration of 
+HelloWorld program running with JVM. 
+
+Thanks
