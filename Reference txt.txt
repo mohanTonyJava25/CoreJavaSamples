@@ -3,3 +3,40 @@ first day I check I configure the Java and Eclipse IDE and pushing the git confi
 HelloWorld program running with JVM. 
 
 Thanks
+
+
+
+Weekend has caught up . I have been readin some Git documents. It is very intersting concept.
+
+Ry's Git Tutorial is very intersting concept. 
+Worked on following commends
+git init
+git clone
+git pull
+git status
+git add .
+git commit -m "----"
+git push
+git log --oneline
+git config --global user.name <name>
+git config --global user.email <email>
+git checkout 2313321
+git checkout master
+git tag -a v1.0 -m "stable version of the website"
+git add crazy.html
+git checkout v1.0
+git revert 514fbe7
+git reset --hard
+git clean -f
+git checkout <commit-id>
+git tag -a <tag-name> -m "<description>"
+git revert <commit-id>
+git reset --hard
+git clean -f
+git reset --hard/git clean -f
+git branch
+git rm <filename>
+
+
+https://www.atlassian.com/git/tutorials/saving-changes/git-stash
+
