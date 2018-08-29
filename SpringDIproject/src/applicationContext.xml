@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns="http://www.springframework.org/schema/mvc"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:beans="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+<beans:bean id="emp" class="spring.ioc.example.demo.Employee">
+	<beans:constructor-arg value="101"></beans:constructor-arg>
+	<beans:constructor-arg value="ravindra"></beans:constructor-arg>
+	<beans:constructor-arg ref="addr"></beans:constructor-arg>
+
+</beans:bean>
+
+
+<beans:bean id="addr" class="spring.ioc.example.demo.Address">
+	<beans:constructor-arg value="usa"></beans:constructor-arg>
+	<beans:constructor-arg value="23322"></beans:constructor-arg>
+
+</beans:bean>
+
+<beans:bean id="emp1" class="spring.ioc.example.Employee">
+	<beans:property name="empId" value="101"></beans:property>
+	<beans:property name="name" value="ravi"></beans:property>
+<!-- 	<beans:property name="address" ref="addr1"></beans:property> -->
+</beans:bean>
+
+
+<beans:bean id="addr1" class="spring.ioc.example.Address">
+	<beans:property name="streetAddr1" value="streetAddr1"></beans:property>
+	<beans:property name="addr2" value="addr2"></beans:property>
+	<beans:property name="city" value="hyd"></beans:property>
+
+</beans:bean>
+
+
+
+<!-- Address addr = new Address(addr1,addr2,hyd); -->
+
+</beans:beans>
