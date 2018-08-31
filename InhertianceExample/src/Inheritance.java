@@ -7,7 +7,7 @@
 //Multilevel Inheritance.
 ////Hierarchical Inheritance.
 ////Hybrid Inheritance (Through Interface)
-//base class or parent class and child class ot middle class are the terminology 
+//base class or parent class and child class or middle class are the terminology 
 
 
 public class Inheritance {
