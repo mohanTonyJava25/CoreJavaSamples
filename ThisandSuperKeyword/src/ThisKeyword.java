@@ -18,24 +18,21 @@
 //
 //
 
-
 public class ThisKeyword {
-	
+
 	int person = 10;
-    ThisKeyword()
-    {
-    	int person = 22;
-    	
-    	System.out.println(person);
-    	System.out.println(this.person);
-    	
-    }
-	
-    public static void main(String[] args) {
-	  ThisKeyword  TK= new ThisKeyword();
-	 
-	  
+
+	ThisKeyword() {
+		int person = 22;
+
+		System.out.println(person);
+		System.out.println(this.person);
+
 	}
-    
+
+	public static void main(String[] args) {
+		ThisKeyword TK = new ThisKeyword();
+
+	}
 
 }
