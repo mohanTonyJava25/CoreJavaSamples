@@ -22,7 +22,7 @@ public class constructorClass {
 	constructorClass(String s, int i) // parameterized constructor
 	{
 		System.out.println(
-				"babu, I paramaterized am constructor. I will run everytime once you use the new key word forr that class"
+				"babu, I paramaterized am constructor. I will run everytime once you use the new key word forr that class with parameters"
 						+ s + i);
 	}
 

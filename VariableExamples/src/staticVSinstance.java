@@ -10,8 +10,8 @@ public class staticVSinstance {
 		System.out.println("inside a constructor");
 		n++;
 		k++;
-		System.out.println(n);
-		System.out.println(k);
+		System.out.println("I am instance varaible " +n);
+		System.out.println("I am static variable" +k);
 	}
 
 	public static void main(String[] args) {
