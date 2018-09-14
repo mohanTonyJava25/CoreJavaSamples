@@ -1,12 +1,15 @@
 package spring.ioc.example.demo;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 public class Employee {
 
 	private int empId; // instance variable
 	// a variable is declared inside class and outside the a method.
 	private String empName;
 
-	private Address address;
+	 @Autowired
+	 private Address address;
 
 	@Override
 	public String toString() {

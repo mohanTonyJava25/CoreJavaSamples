@@ -10,7 +10,8 @@ abstraction class 0-100% hiding where as Interface is 100% complete hiding.
 
 Interfaces: 
 	
-	1.) Abstraction is a collection of abstract methods. 
+	1.)  Interface is a collection of abstract methods. 
+	
     2.) An interface can contain both variables and methods. 
     3.) an interfaces can not be instantiated. 
     4.) in order to access the members of interface we need to inherit the interface into a class using implemtents key word.
